@@ -3,9 +3,44 @@ body {
   background-color: #f6f6f6;
 }
 
+/* top navigation bar styling */
+.my_vector {
+  height: 40px;
+  width: 40px;
+}
+.topnav {
+  background-color: #f6f6f6;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: #130ef1;
+  cursor: pointer;
+  text-align: center;
+}
+
+.topnav a.active {
+  color: black;
+}
+
+.topnav-right {
+  float: right;
+}
+
 /* section 1 styling */
 .section-1 {
-  margin: 10% 10% 6% 10%;
+  margin: 8% 10% 6% 10%;
 }
 
 /* h1 styling */
@@ -47,6 +82,8 @@ p {
   font-weight: 300;
   letter-spacing: 1.5px;
   margin-top: 50px;
+  margin-bottom: 50px;
+  width: 80%;
 }
 
 @media screen and (min-width: 601px) {
@@ -65,5 +102,21 @@ p {
 }
 
 .highlighted {
-  color: #ff5757;
+  color: black;
+}
+
+/* button styling */
+
+.button {
+  background-color: #130ef1;
+  border: 10px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
 }
